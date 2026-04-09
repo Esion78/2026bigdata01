@@ -22,3 +22,9 @@ print(array06)
 
 array07 = np.linspace(0, 10, 3)
 print(array07)
+
+array08 = np.random.rand(3,3)
+print(array08)
+print(array08.shape, array08.dtype, array08.ndim, array08.size)
+print(array08.T)
+
